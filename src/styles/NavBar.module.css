@@ -1,0 +1,43 @@
+nav {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.navWrapper {
+    height: 100%;
+    width: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: "Delius Swash Caps";
+    font-size: 60px;
+}
+
+.navItemWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 30px;
+    font-family: 'Poppins';
+}
+.resumeButton {
+    font-size: 30px;
+    font-family: 'Poppins';
+    padding: 13px 29px;
+    border-radius: 29px;
+    background-color: #FAC300;
+}
+
+.resumeButton:hover {
+    background-color: green;
+    cursor: pointer;
+    color: white;
+}
