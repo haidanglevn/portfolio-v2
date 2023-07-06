@@ -1,0 +1,83 @@
+.hero_section {
+  height: calc(100vh - 100px); /* won't look good on big screen */
+  background-color: #f7e1d3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.avatar_section {
+  position: relative;
+  border: 1px solid green;
+  height: 308px;
+  width: 300px;
+}
+
+.avatar {
+  height: 308px;
+  width: 300px;
+  border-radius: 300px;
+  background-image: url("../assets/Dang_Hai_cropped.jpg");
+  background-size: cover;
+  border: 1px solid black;
+}
+.icon {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 30px;
+  background-image: url("../assets/Flag_of_Vietnam.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.introduction {
+  border: 1px solid blue;
+  height: 308px;
+  width: 425px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 17px;
+}
+
+.introduction h1 {
+  font-size: 50px;
+  font-family: "Inter";
+}
+
+.introduction span {
+  color: #fac300;
+  font-family: "Delius Swash Caps";
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.introduction h2 {
+  font-size: 30px;
+  font-family: "Inter";
+}
+
+.hashtags {
+  color: #fac300;
+  font-size: 30px;
+  font-family: "Poppins";
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.links {
+    display: flex;
+    gap: 12px;
+}
