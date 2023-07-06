@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-v2/static/css/main.1c0d3f07.css",
-    "main.js": "/portfolio-v2/static/js/main.a9dfdc8d.js",
+    "main.css": "/portfolio-v2/static/css/main.ac604b1c.css",
+    "main.js": "/portfolio-v2/static/js/main.15626a62.js",
+    "static/media/Dang_Hai_cropped.jpg": "/portfolio-v2/static/media/Dang_Hai_cropped.acf5881c0a3377fcc502.jpg",
+    "static/media/Flag_of_Vietnam.png": "/portfolio-v2/static/media/Flag_of_Vietnam.d5989aa85cad171dc452.png",
+    "static/media/Gmail.svg": "/portfolio-v2/static/media/Gmail.148208fd7583751c0e8854783153d62b.svg",
+    "static/media/Github.svg": "/portfolio-v2/static/media/Github.8e84d8a43c7b89610790dbf5757875e5.svg",
+    "static/media/Linkedin.svg": "/portfolio-v2/static/media/Linkedin.7a5c3fdb4729e06e308d43dd369c1e1e.svg",
     "index.html": "/portfolio-v2/index.html",
-    "main.1c0d3f07.css.map": "/portfolio-v2/static/css/main.1c0d3f07.css.map",
-    "main.a9dfdc8d.js.map": "/portfolio-v2/static/js/main.a9dfdc8d.js.map"
+    "main.ac604b1c.css.map": "/portfolio-v2/static/css/main.ac604b1c.css.map",
+    "main.15626a62.js.map": "/portfolio-v2/static/js/main.15626a62.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c0d3f07.css",
-    "static/js/main.a9dfdc8d.js"
+    "static/css/main.ac604b1c.css",
+    "static/js/main.15626a62.js"
   ]
 }
