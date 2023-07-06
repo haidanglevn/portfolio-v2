@@ -2,4 +2,4 @@
 
 Remote repo for personal portfolio
 
-Live page will be done later.
+Live page: https://haidanglevn.github.io/portfolio-v2/
