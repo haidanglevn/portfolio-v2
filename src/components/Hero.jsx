@@ -30,6 +30,10 @@ function Hero() {
           </div>
         </div>
       </div>
+      <div className={styles.button_wrapper}>
+        <button className={styles.button}>View my projects  👇🏻</button>
+        <button className={styles.button}>Contact me  📨</button>
+      </div>
     </div>
   );
 }

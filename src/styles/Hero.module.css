@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .hero_wrapper {
@@ -16,7 +17,6 @@
 
 .avatar_section {
   position: relative;
-  border: 1px solid green;
   height: 308px;
   width: 300px;
 }
@@ -42,7 +42,6 @@
 }
 
 .introduction {
-  border: 1px solid blue;
   height: 308px;
   width: 425px;
   text-align: left;
@@ -80,4 +79,29 @@
 .links {
     display: flex;
     gap: 12px;
+}
+
+/* Button section */
+
+.button_wrapper {
+  display: flex;
+  gap: 20px;
+  width: 745px;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.button {
+  background-color: #fac300;
+  font-size: 30px;
+  font-family: "Poppins";
+  border-radius: 29px;
+}
+
+.button:first-child {
+  padding: 13px 60px;
+}
+
+.button:nth-child(2) {
+  padding: 13px 20px;
 }
