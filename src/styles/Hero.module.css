@@ -105,3 +105,13 @@
 .button:nth-child(2) {
   padding: 13px 20px;
 }
+
+.button:hover {
+  animation: jump 0.5s infinite;
+  cursor: pointer;
+}
+
+@keyframes jump {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}

@@ -24,15 +24,17 @@ function Hero() {
             <p>#NodeJS #Firebase</p>
           </div>
           <div className={styles.links}>
-            <img src={linkedin} alt="linkedin"  />
+            <img src={linkedin} alt="linkedin" />
             <img src={github} alt="github" />
             <img src={gmail} alt="gmail" />
           </div>
         </div>
       </div>
       <div className={styles.button_wrapper}>
-        <button className={styles.button}>View my projects  👇🏻</button>
-        <button className={styles.button}>Contact me  📨</button>
+        <button className={styles.button}>
+          View my projects 👇🏻
+        </button>
+        <button className={styles.button}>Contact me 📨</button>
       </div>
     </div>
   );
