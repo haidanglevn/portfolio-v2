@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio-v2/static/css/main.f2040328.css",
-    "main.js": "/portfolio-v2/static/js/main.5faffeee.js",
+    "main.css": "/portfolio-v2/static/css/main.cf9219da.css",
+    "main.js": "/portfolio-v2/static/js/main.af402e05.js",
+    "static/media/main.png": "/portfolio-v2/static/media/main.ed07c9bee5df052a96dd.png",
+    "static/media/allRecipes.png": "/portfolio-v2/static/media/allRecipes.1faa71698399235cf127.png",
     "static/media/Dang_Hai_cropped.jpg": "/portfolio-v2/static/media/Dang_Hai_cropped.acf5881c0a3377fcc502.jpg",
+    "static/media/seats.png": "/portfolio-v2/static/media/seats.d46601195a428dd7457e.png",
+    "static/media/planner.png": "/portfolio-v2/static/media/planner.10d9a0bfbf9ade44b29d.png",
     "static/media/Flag_of_Vietnam.png": "/portfolio-v2/static/media/Flag_of_Vietnam.d5989aa85cad171dc452.png",
     "static/media/Gmail.svg": "/portfolio-v2/static/media/Gmail.148208fd7583751c0e8854783153d62b.svg",
+    "static/media/webinactive.svg": "/portfolio-v2/static/media/webinactive.ffc991afad554323601e9b0209e66a1e.svg",
+    "static/media/web.svg": "/portfolio-v2/static/media/web.29f021f6a0705fc5e0e99fdd824a8d25.svg",
     "static/media/Github.svg": "/portfolio-v2/static/media/Github.8e84d8a43c7b89610790dbf5757875e5.svg",
     "static/media/Linkedin.svg": "/portfolio-v2/static/media/Linkedin.7a5c3fdb4729e06e308d43dd369c1e1e.svg",
     "index.html": "/portfolio-v2/index.html",
-    "main.f2040328.css.map": "/portfolio-v2/static/css/main.f2040328.css.map",
-    "main.5faffeee.js.map": "/portfolio-v2/static/js/main.5faffeee.js.map"
+    "main.cf9219da.css.map": "/portfolio-v2/static/css/main.cf9219da.css.map",
+    "main.af402e05.js.map": "/portfolio-v2/static/js/main.af402e05.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2040328.css",
-    "static/js/main.5faffeee.js"
+    "static/css/main.cf9219da.css",
+    "static/js/main.af402e05.js"
   ]
 }
