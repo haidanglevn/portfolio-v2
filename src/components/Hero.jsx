@@ -17,7 +17,7 @@ function Hero() {
             <h1>
               Hello, I'm <span>Dang Le</span>
             </h1>
-            <h2>Full Stack Developer</h2>
+            <h2>Frontend Developer</h2>
           </div>
           <div className={styles.hashtags}>
             <p>#React #Typescript #MUI</p>
