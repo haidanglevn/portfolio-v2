@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-v2/static/css/main.2da341e1.css",
-    "main.js": "/portfolio-v2/static/js/main.477c4499.js",
+    "main.css": "/portfolio-v2/static/css/main.69ab65e1.css",
+    "main.js": "/portfolio-v2/static/js/main.fb2a0244.js",
     "static/media/main.png": "/portfolio-v2/static/media/main.ed07c9bee5df052a96dd.png",
     "static/media/allRecipes.png": "/portfolio-v2/static/media/allRecipes.1faa71698399235cf127.png",
     "static/media/Dang_Hai_cropped.jpg": "/portfolio-v2/static/media/Dang_Hai_cropped.acf5881c0a3377fcc502.jpg",
@@ -26,11 +26,11 @@
     "static/media/html.svg": "/portfolio-v2/static/media/html.93ffc86c520c4875aeca4c69ade8193f.svg",
     "static/media/Linkedin.svg": "/portfolio-v2/static/media/Linkedin.7a5c3fdb4729e06e308d43dd369c1e1e.svg",
     "index.html": "/portfolio-v2/index.html",
-    "main.2da341e1.css.map": "/portfolio-v2/static/css/main.2da341e1.css.map",
-    "main.477c4499.js.map": "/portfolio-v2/static/js/main.477c4499.js.map"
+    "main.69ab65e1.css.map": "/portfolio-v2/static/css/main.69ab65e1.css.map",
+    "main.fb2a0244.js.map": "/portfolio-v2/static/js/main.fb2a0244.js.map"
   },
   "entrypoints": [
-    "static/css/main.2da341e1.css",
-    "static/js/main.477c4499.js"
+    "static/css/main.69ab65e1.css",
+    "static/js/main.fb2a0244.js"
   ]
 }
