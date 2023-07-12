@@ -5,6 +5,10 @@ import linkedin from "../assets/Linkedin.svg";
 import gmail from "../assets/Gmail.svg";
 
 function Hero() {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    section.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div className={styles.hero_section}>
       <div className={styles.hero_wrapper}>
@@ -31,10 +35,10 @@ function Hero() {
         </div>
       </div>
       <div className={styles.button_wrapper}>
-        <button className={styles.button}>
+        <button className={styles.button} onClick={() => scrollToSection("project")}>
           View my projects 👇🏻
         </button>
-        <button className={styles.button}>Contact me 📨</button>
+        <button className={styles.button} onClick={() => scrollToSection("contact")}>Contact me 📨</button>
       </div>
     </div>
   );

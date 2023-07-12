@@ -110,7 +110,7 @@ function Projects() {
     },
   ];
   return (
-    <div className={styles.projects_section}>
+    <div className={styles.projects_section} id="project">
       <h1 className={styles.title}>Projects</h1>
       <div className={styles.projects_wrapper}>
         {projects.map((project) => {

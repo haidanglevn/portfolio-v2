@@ -2,6 +2,11 @@ import React from "react";
 import styles from "../styles/NavBar.module.css";
 
 function NavBar() {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    section.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <nav>
       <div className={styles.navWrapper}>
@@ -10,16 +15,18 @@ function NavBar() {
         </div>
         <div className={styles.navItemWrapper}>
           <div>
-            <p>About Me</p>
+            <p onClick={() => scrollToSection("project")}>Projects</p>
           </div>
           <div>
-            <p>Skills</p>
+            <p onClick={() => scrollToSection("about")}>About Me</p>
           </div>
           <div>
-            <p>Projects</p>
+            <p onClick={() => scrollToSection("contact")}>Contact</p>
           </div>
           <div>
-            <button className={styles.resumeButton}>Resume</button>
+          <a href="https://drive.google.com/file/d/19oySCJ8OFy-feXVkaUOuXhR7NwCOM5EZ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className={styles.resumeButton}>
+              Resume
+            </a>
           </div>
         </div>
       </div>

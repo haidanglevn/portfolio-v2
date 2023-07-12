@@ -7,6 +7,11 @@ nav {
   justify-content: center;
 }
 
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
 .navWrapper {
   height: 100%;
   width: 1080px;
@@ -28,6 +33,10 @@ nav {
   font-size: 30px;
   font-family: "Poppins";
 }
+
+.navItemWrapper div:hover {
+  cursor: pointer;
+}
 .resumeButton {
   font-size: 30px;
   font-family: "Poppins";
@@ -36,6 +45,7 @@ nav {
   background-color: #fac300;
   transition: transform 0.3s;
 }
+
 
 .resumeButton:hover {
   background-color: green;

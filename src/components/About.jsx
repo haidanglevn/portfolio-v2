@@ -15,7 +15,7 @@ import docker from "../assets/skills/docker.svg";
 
 function About() {
   return (
-    <div className={styles.aboutSection}>
+    <div className={styles.aboutSection} id="about">
       <h1>About me</h1>
       <div className={styles.aboutContent}>
         <div className={styles.introduction}>
