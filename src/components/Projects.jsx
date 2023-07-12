@@ -86,7 +86,7 @@ function Projects() {
         "Planner",
         "Team Project",
         "WeatherAPI",
-        "MapBox API"
+        "MapBox API",
       ],
       text: "A tablet-layout travel planner web app in React. This is a team project for the basic React app, where students practice basic React concepts like routing, components and working with APIs. Main features are weather info for all Finnish cities, Google authentication and travel planner page. ",
       githubLink: "https://github.com/haidanglevn/BCH_Team5_TravelPlanner",
@@ -181,57 +181,6 @@ function Projects() {
             </div>
           );
         })}
-        {/* <div className={styles.project_card}>
-          <img src={exoveMain} alt="" className={styles.project_card_img} />
-          <h2>Exove Collegue Feedback</h2>
-          <div className={styles.tags_wrapper}>
-            <div className={styles.card_tags}>TypeScript</div>
-            <div className={styles.card_tags}>React</div>
-            <div className={styles.card_tags}>Material UI</div>
-            <div className={styles.card_tags}>ExpressJS</div>
-            <div className={styles.card_tags}>MongoDB</div>
-            <div className={styles.card_tags}>OpenLDAP</div>
-          </div>
-          <p className={styles.card_text}>
-            A fullstack app made in collaboration with Exove to create a
-            solution for the company's colleague feedback process. Its main
-            goals is to replace current process of gathering feedback with GG
-            Form, storing result in GG Sheets with an automated system with
-            user-friendly UI and a database to store feedback data.
-          </p>
-          <div className={styles.buttons_wrapper}>
-            <div>
-              <a
-                href="https://github.com/Colleague-Feedback-Team-1/colleague-feedback-frontend"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button
-                  className={`${styles.button_left} ${styles.active_button}`}
-                >
-                  <img
-                    src={github}
-                    alt="button-icon"
-                    className={styles.button_icon}
-                  />
-                  GitHub Repository
-                </button>
-              </a>
-
-              <button
-                className={`${styles.button_left} ${styles.inactive_button}`}
-              >
-                <img
-                  src={webInactive}
-                  alt="button"
-                  className={styles.button_icon}
-                />
-                Live Web Page
-              </button>
-            </div>
-            <button className={styles.button_right}>Read more</button>
-          </div>
-        </div> */}
       </div>
     </div>
   );

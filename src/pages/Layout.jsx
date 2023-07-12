@@ -7,8 +7,8 @@ function Layout() {
     <>
       <NavBar />
       <Outlet />
-{/*       <Footer />
- */}    </>
+      <Footer />
+    </>
   );
 }
 
