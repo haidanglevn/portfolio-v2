@@ -4,7 +4,7 @@ import styles from "../styles/Footer.module.css"
 function Footer() {
   return (
     <footer>
-      <p>© Dang Le 2023</p>
+      <p>© Created by Dang Le 2023</p>
     </footer>
   )
 }

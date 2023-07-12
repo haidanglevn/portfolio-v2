@@ -1,0 +1,45 @@
+.contact {
+    height: 325px;
+    background-color: #003272;
+    padding: 37px ;
+    text-align: left;
+}
+
+.guideline {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.contact h1 {
+    margin-bottom: 50px;
+    font-family: "Delius Swash Caps";
+    font-size: 50px;
+    color: #FAC300;
+}
+
+.contactWrapper {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    gap: 70px;
+    justify-content: center;
+}
+
+.contactDivLeft {
+    width: 470px;
+}
+.contactDivRight {
+    width: 545px;
+}
+
+.contactWrapper p {
+    margin-bottom: 20px;
+}
+
+p span {
+    color: #FAC300;
+}
+
+.contactDetails {
+    font-weight: bold;
+}

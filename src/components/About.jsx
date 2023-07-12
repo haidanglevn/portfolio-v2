@@ -52,19 +52,19 @@ function About() {
             </div>
             <div className={styles.skillCard}>
               <img src={mui} alt="mui-logo" />
-              <p>mui</p>
+              <p>MUI</p>
             </div>
             <div className={styles.skillCard}>
               <img src={nodejs} alt="nodejs-logo" />
-              <p>nodejs</p>
+              <p>nodeJS</p>
             </div>
             <div className={styles.skillCard}>
               <img src={html} alt="html-logo" />
-              <p>html</p>
+              <p>HTML</p>
             </div>
             <div className={styles.skillCard}>
               <img src={css} alt="css-logo" />
-              <p>css</p>
+              <p>CSS</p>
             </div>
             <div className={styles.skillCard}>
               <img src={firebase} alt="firebase-logo" />
@@ -72,7 +72,7 @@ function About() {
             </div>
             <div className={styles.skillCard}>
               <img src={mongodb} alt="mongodb-logo" />
-              <p>mongodb</p>
+              <p>mongoDB</p>
             </div>
           </div>
           <h2>Other tools</h2>
@@ -83,7 +83,7 @@ function About() {
             </div>
             <div className={styles.skillCard}>
               <img src={git} alt="git-logo" />
-              <p>git</p>
+              <p>GIT</p>
             </div>
             <div className={styles.skillCard}>
               <img src={postman} alt="postman-logo" />
