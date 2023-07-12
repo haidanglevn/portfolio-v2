@@ -28,17 +28,39 @@ function Hero() {
             <p>#NodeJS #Firebase</p>
           </div>
           <div className={styles.links}>
-            <img src={linkedin} alt="linkedin" />
-            <img src={github} alt="github" />
-            <img src={gmail} alt="gmail" />
+            <a
+              href="https://www.linkedin.com/in/dang-le-hai/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={linkedin} alt="linkedin" />
+            </a>
+
+            <a
+              href="https://github.com/haidanglevn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={github} alt="github" />
+            </a>
+            <a href="mailto:haidang.levn@gmail.com">
+            <img src={gmail} alt="gmail" /></a>
           </div>
         </div>
       </div>
       <div className={styles.button_wrapper}>
-        <button className={styles.button} onClick={() => scrollToSection("project")}>
+        <button
+          className={styles.button}
+          onClick={() => scrollToSection("project")}
+        >
           View my projects 👇🏻
         </button>
-        <button className={styles.button} onClick={() => scrollToSection("contact")}>Contact me 📨</button>
+        <button
+          className={styles.button}
+          onClick={() => scrollToSection("contact")}
+        >
+          Contact me 📨
+        </button>
       </div>
     </div>
   );

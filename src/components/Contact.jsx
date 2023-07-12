@@ -13,7 +13,8 @@ function Contact() {
               of the following methods:
             </p>
             <p className={styles.contactDetails}>
-              Email: <span>haidang.levn@gmail.com</span><br />
+              Email: <span>haidang.levn@gmail.com</span>
+              <br />
               Phone: <span>+358 46 953 2490</span>
             </p>
           </div>
@@ -23,8 +24,23 @@ function Contact() {
               my latest projects:
             </p>
             <p className={styles.contactDetails}>
-              GitHub: <span>https://github.com/haidanglevn</span> <br />
-              LinkedIn: <span>https://www.linkedin.com/in/dang-le-hai/</span>
+              GitHub:{" "}
+              <a
+                href="https://github.com/haidanglevn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>https://github.com/haidanglevn</span>
+              </a>{" "}
+              <br />
+              LinkedIn:{" "}
+              <a
+                href="https://www.linkedin.com/in/dang-le-hai/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>https://www.linkedin.com/in/dang-le-hai/</span>
+              </a>
             </p>
           </div>
         </div>
