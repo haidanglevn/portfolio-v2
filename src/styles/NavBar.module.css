@@ -1,6 +1,6 @@
 nav {
   height: 100px;
-  width: 100%;
+  width: 100vw;
   background-color: black;
   color: white;
   display: flex;
@@ -46,10 +46,23 @@ nav a {
   transition: transform 0.3s;
 }
 
-
 .resumeButton:hover {
   background-color: green;
   cursor: pointer;
   color: white;
   transform: scale(1.1);
+}
+
+@media (max-width: 1080px) {
+  .navWrapper {
+    width: 900px;
+  }
+  .navItem {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .navWrapper {
+    width: 700px;
+  }
 }

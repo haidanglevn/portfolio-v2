@@ -14,16 +14,16 @@ function NavBar() {
           <h1 className={styles.logo}>DangLe</h1>
         </div>
         <div className={styles.navItemWrapper}>
-          <div>
+          <div className={styles.navItem}>
             <p onClick={() => scrollToSection("project")}>Projects</p>
           </div>
-          <div>
+          <div className={styles.navItem}>
             <p onClick={() => scrollToSection("about")}>About Me</p>
           </div>
-          <div>
+          <div className={styles.navItem}>
             <p onClick={() => scrollToSection("contact")}>Contact</p>
           </div>
-          <div>
+          <div className={styles.resumeButton}>
           <a href="https://drive.google.com/file/d/19oySCJ8OFy-feXVkaUOuXhR7NwCOM5EZ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className={styles.resumeButton}>
               Resume
             </a>
