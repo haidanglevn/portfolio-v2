@@ -1,5 +1,5 @@
 .contact {
-    height: 325px;
+    height: auto;
     background-color: #003272;
     padding: 37px ;
     text-align: left;
@@ -42,4 +42,15 @@ p span {
 
 .contactDetails {
     font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+    .contactWrapper {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .guideline {
+        width: auto;
+    }
 }
