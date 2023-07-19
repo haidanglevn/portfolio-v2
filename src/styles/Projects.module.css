@@ -14,8 +14,11 @@
 }
 
 .projects_wrapper {
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
   row-gap: 34px;
   column-gap: 80px;
 }
@@ -115,3 +118,23 @@
 a {
   text-decoration: none;
 }
+
+@media (max-width: 1080px) {
+  .project_card_img {
+    height: 180px;
+  }
+
+  .project_card {
+    width: 430px;
+    height: auto;
+  }
+
+  .project_card_img {
+    max-width: 380px;
+  }
+
+  .tags_wrapper {
+    width: 380px;
+  }
+}
+
