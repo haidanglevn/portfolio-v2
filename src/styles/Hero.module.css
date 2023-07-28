@@ -1,5 +1,5 @@
 .hero_section {
-  height:50vh;
+  height: 70vh;
   background-color: #f7e1d3;
   display: flex;
   align-items: center;
@@ -115,6 +115,7 @@
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-10px); }
 }
+
 
 @media (max-width: 1080px) {
   .hero_section {
